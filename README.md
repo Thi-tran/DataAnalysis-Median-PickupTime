@@ -28,7 +28,7 @@ http://127.0.0.1:8080/median_pickup_time?location_id=12&start_time=2019-01-09T11
 
 ### Test 
 ```
-python tests.py
+$ python tests.py
 ```
 
 ### Other issues: 
