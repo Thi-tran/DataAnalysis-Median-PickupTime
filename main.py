@@ -22,7 +22,7 @@ def get_median(location, time_start, time_end):
         # Get data from csv with condition
         result_list = []
         for row in reader:
-            if (int(row[0]) == location) & (change_time(row[1]) > time_start) & (change_time(row[1]) < time_end):
+            if (int(row[0]) == location) & (change_time(row[1]) >= time_start) & (change_time(row[1]) <= time_end):
                 result_list.append(int(row[2]))
 
         return median(result_list)
