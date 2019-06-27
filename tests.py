@@ -15,10 +15,10 @@ class TestMain(unittest.TestCase):
 
     # Change the name of index everytime test
     def test_add_data(self):
-        main.add_data("test-add-data-1-new", 27)
+        main.add_data("test-add-data-3-new", 27)
         hdf = pd.HDFStore("hdf5_data.h5", mode="r")
         data = hdf.get("/request")
-        added_data = data.loc["test-add-data-1-new", 'result']
+        added_data = data.loc["test-add-data-3-new", 'result']
         hdf.close()
         self.assertEqual(int(added_data), 27)
 
