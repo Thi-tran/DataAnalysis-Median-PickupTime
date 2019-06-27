@@ -39,4 +39,4 @@ python tests.py
 Here are some ways that I think that could be done to develop this further: 
 - Using Binary Search to speend up searching process in both CSV file and Cache 
 - Using Machine Learning with data from previous weeks, months to predict pickup time in the future
-- Using Prediction from previous stage to predict peak time (when pickup time is high, and other conditions) and prepare solutions for it (distribute couriers in specific area, increase incentives for courier at that time)
+- Using Prediction from previous stage to predict peak time (when pickup time is high, and other conditions) and prepare solutions to match with the demand (distribute couriers in specific area, increase incentives for courier at that time)
