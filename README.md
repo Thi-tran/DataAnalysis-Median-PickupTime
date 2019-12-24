@@ -1,4 +1,6 @@
-# Wolt-median-pickuptime
+# Median pickup time
+
+Play around with Pandas library to analyse data from pickup time to determine pickup time in the future
 
 ## Quick Start
 
